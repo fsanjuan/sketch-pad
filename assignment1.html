@@ -1,0 +1,66 @@
+<!-- Student: Félix Miguel Sanjuán Segovia -->
+<!-- Assignment 1 -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Assignment 1 - Félix Miguel Sanjuán Segovia</title>
+	<meta name="author" content="Félix" />
+	<!-- Date: 2013-02-21 -->
+	<script type="text/javascript" src="assignment1.js" ></script>
+	<link rel="stylesheet" type="text/css" href="assignment1.css" />
+</head>
+<body>
+	<div id="divblackboard">
+		<h1 id="header">
+			Create Image
+		</h1>
+	
+		<div id="divcanvas">
+			<div id="divcanvas1">
+				<canvas id="mycanvas" width="500" height="400">
+  	  				<p>Your browser doesn't support canvas.</p>
+  	  				</canvas>
+  	 		</div>
+  	  	
+  			<div id="divcanvas2">
+  		  		<canvas id="mycanvas2" width="500" height="400">
+  		  			<p>Your browser doesn't support canvas.</p>
+  		  			</canvas>
+  		  	</div>
+		</div>
+  	  	
+  	  	<fieldset id="fieldproperties">
+  	  		<legend id="legendprop">Properties</legend>
+  	  		<div id="divproperties">
+    			<div id="divchangeproperties">
+	    			<label id="strokelabel" for="property">Stroke: </label>
+	    			<select id="thickness" name="property">
+	    				<option id="normal">Normal</option>
+		    			<option id="thick">Thick</option>
+		    			<option id="thin">Thin</option>
+		    		</select>
+		    		<select id="colour" name="property">
+		    			<option id="black">Black</option>
+			    		<option id="red">Red</option>
+			    		<option id="green">Green</option>
+			    		<option id="blue">Blue</option>
+			    	</select>
+			    	<label id="filllabel" for="fillproperty">Fill: </label>
+			    	<select id="fillproperty" name="fillproperty">
+			    		<option id="black">Black</option>
+			    		<option id="red">Red</option>
+			    		<option id="green">Green</option>
+			    		<option id="blue">Blue</option>
+			    	</select>
+			 </div>
+			 <div id="divclear">
+				 <button id="buttonclear">Clear</button>
+				 <button id="buttondownload">Download</button>
+			 </div>
+		</div>
+  	  	</fieldset>
+	</div>
+	
+</body>
+</html>

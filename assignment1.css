@@ -1,0 +1,76 @@
+/*
+  Student: Félix Miguel Sanjuán Segovia
+  Assignment 1 
+*/
+
+#divcanvas{
+	margin-bottom: 15px;
+}
+
+#divcanvas1{
+	border: 2px solid black;
+	width: intrinsic;
+	float: left;
+	margin-right: 10px;
+}
+
+#divcanvas2{
+	border: 2px solid black;
+	width: intrinsic;
+	float: right;
+	margin-left: 10px;
+}
+
+#divblackboard{
+	position: fixed;
+	left: 23%;
+	width: intrinsic;
+}
+
+#header{
+	text-align: center;
+}
+
+#fieldproperties{
+	clear: both;
+	margin-top: 15px;
+}
+
+#mycanvas{
+	cursor: crosshair;
+}
+
+#buttondownload{
+	float: right;
+}
+
+#divdownload{
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(217,172,106,0.49);
+	position: absolute;
+	display: none;
+}
+
+#divframe{
+	position: absolute;
+	top: 17%;
+	left: 38%;
+	background-color: #fcfcfc;
+	border: 3px solid black;
+	
+}
+
+#buttonclose{
+	float: right;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+
+#linkimage{
+	float: left;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
